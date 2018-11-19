@@ -53,6 +53,16 @@ $ python train.py
 $ python sample.py --image='png/example.png'
 ```
 
+#### 6. When error occured with resize.py 
+
+```bash
+$ from PIL import ImageFile
+$ ImageFile.LOAD_TRUNCATED_IMAGES = True
+```
+
+
+
+
 <br>
 
 ## Pretrained model
